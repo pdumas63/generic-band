@@ -194,9 +194,8 @@ $band = $sql->band();
                         </figure>
                     </div>
                     <div class="textInfo">
-                        <p>Au cours de sa longue carrière, Opeth fidélise et renforce sa base de fans, jusqu'à devenir un des groupes les plus connus du genre metal au cours des années 2000. L'album Damnation a su percer le classement Billboard 200 en entrant à la 192e position lors de son lancement en 20031. L'exploit est amélioré en septembre 2005 alors que Ghost Reveries passe deux semaines au classement aux positions 64 et 175 respectivement2.</p>
-
-                        <p>Opeth recense treize albums studio, deux albums live, un coffret et trois DVD musicaux. Le premier album du groupe, Orchid, est présenté en 1995. Le dernier album en date d'Opeth, In Cauda Venenum, est sorti le 27 septembre 2019.</p>
+                        <p>Au cours de sa longue carrière, Opeth fidélise et renforce sa base de fans, jusqu'à devenir un des groupes les plus connus du genre metal au cours des années 2000. L'album Damnation a su percer le classement Billboard 200 en entrant à la 192e position lors de son lancement en 20031. L'exploit est amélioré en septembre 2005 alors que Ghost Reveries passe deux semaines au classement aux positions 64 et 175 respectivement.
+                        Opeth recense treize albums studio, deux albums live, un coffret et trois DVD musicaux. Le premier album du groupe, Orchid, est présenté en 1995. Le dernier album en date d'Opeth, In Cauda Venenum, est sorti le 27 septembre 2019.</p>
                     </div>
                 </div>
                 <hr>
@@ -225,8 +224,10 @@ $band = $sql->band();
                             2011 : Heritage
                             2014 : Pale Communion
                             2016 : Sorceress
-                            2019 : In Cauda Venenum</p>
-                        <p>Live
+                            2019 : In Cauda Venenum
+
+                            
+                            Albums Live
 
                             2003 : Lamentations: Live at Shepherd's Bush Empire
                             2007 : The Roundhouse Tapes

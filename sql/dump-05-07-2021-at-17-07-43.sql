@@ -1,4 +1,4 @@
--- DUMPED ON 02/07/2021 at 12:20:48
+-- DUMPED ON 05/07/2021 at 17:07:43
 
 -- MariaDB dump 10.19  Distrib 10.5.11-MariaDB, for Linux (x86_64)
 --
@@ -55,7 +55,7 @@ CREATE TABLE `band` (
 
 LOCK TABLES `band` WRITE;
 /*!40000 ALTER TABLE `band` DISABLE KEYS */;
-INSERT INTO `band` VALUES (1,'Les 3 Stagiaires Maléfiques','Pascalogo.png','test','test','test','test','test','https://soundcloud.com/','https://bandcamp.com/','exemple@niwee.fr',473123456);
+INSERT INTO `band` VALUES (1,'Les 3 Stagiaires Maléfiques','PascalLogo.png','Opeth est un groupe de death metal progressif suédois, originaire de Stockholm. Fondé en 1990, le style d\'Opeth, basé en grande partie sur la présence continue du chanteur et guitariste Mikael Åkerfeldt, est bien ancré dans la tradition heavy metal. Le groupe est également sous-classé dans le death metal et le rock progressif (ou une combinaison de ces genres) selon l\'album et parfois la chanson à laquelle le critique se réfère. D\'une part, Opeth emprunte aux styles les plus brutaux à travers des chants gutturaux et des séquences instrumentales très agressives tandis que de l\'autre, il se distingue par des séquences progressives mélodiques, très souvent douces et envoûtantes. Cette apparente dichotomie est présente dans tous les albums du groupe bien qu\'à des degrés différents, ce qui rend sa classification dans un style musical d\'autant plus complexe.','https://fr-fr.facebook.com/','https://twitter.com/?lang=fr','https://www.instagram.com/?hl=fr','https://www.youtube.com/','https://soundcloud.com/','https://bandcamp.com/','exemple@niwee.fr',473123456);
 /*!40000 ALTER TABLE `band` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -93,4 +93,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-07-02 10:20:49
+-- Dump completed on 2021-07-05 15:07:48

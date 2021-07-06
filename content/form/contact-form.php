@@ -16,7 +16,7 @@
 		<input type="submit" class="btn btn-light" value="Envoyer">
 		<small id="valid-message"></small>
 		<div>
-			<br/>
+			<br>
 			<a href="tel:+33<?php echo $band['tel']; ?>">0<?php echo $band['tel']; ?></a>
 			<a href="mailto:contact@example.com">contact@example.com</a>
 		</div>
