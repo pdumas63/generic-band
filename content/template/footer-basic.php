@@ -21,18 +21,14 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Call to action -->        
-            
-                <div class="row">                    
-                    <div class="col-md-6 d-flex align-items-center">
-                        <div class="contact d-flex">
-                            <a href="tel:+33<?php echo $band['tel']; ?>"><img src="./assets/img/neon/phone.png"></a>
-                            <a href="mailto:<?php echo $band['email']; ?>"><img src="./assets/img/neon/contact.png"></a>
-                        </div>
+            <div class="row">                    
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="contact d-flex">
+                        <a href="tel:+33<?php echo $band['tel']; ?>"><img src="./assets/img/neon/phone.png"></a>
+                        <a href="mailto:<?php echo $band['email']; ?>"><img src="./assets/img/neon/contact.png"></a>
                     </div>
                 </div>
-                
+            </div>                
         </div>
         
         <ul class="list-inline">            

@@ -194,8 +194,7 @@ $band = $sql->band();
                         </figure>
                     </div>
                     <div class="textInfo">
-                        <p>Au cours de sa longue carrière, Opeth fidélise et renforce sa base de fans, jusqu'à devenir un des groupes les plus connus du genre metal au cours des années 2000. L'album Damnation a su percer le classement Billboard 200 en entrant à la 192e position lors de son lancement en 20031. L'exploit est amélioré en septembre 2005 alors que Ghost Reveries passe deux semaines au classement aux positions 64 et 175 respectivement.
-                        Opeth recense treize albums studio, deux albums live, un coffret et trois DVD musicaux. Le premier album du groupe, Orchid, est présenté en 1995. Le dernier album en date d'Opeth, In Cauda Venenum, est sorti le 27 septembre 2019.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
                     </div>
                 </div>
                 <hr>
@@ -211,7 +210,7 @@ $band = $sql->band();
                     </div>
                     <div class="textAlbum">
                         <p>Albums studio
-
+                            <br>
                             1995 : Orchid
                             1996 : Morningrise
                             1998 : My Arms, Your Hearse
@@ -225,10 +224,9 @@ $band = $sql->band();
                             2014 : Pale Communion
                             2016 : Sorceress
                             2019 : In Cauda Venenum
-
-                            
+                            <br>                            
                             Albums Live
-
+                            <br>
                             2003 : Lamentations: Live at Shepherd's Bush Empire
                             2007 : The Roundhouse Tapes
                             2010 : In Live Concert at the Royal Albert Hall
@@ -243,16 +241,13 @@ $band = $sql->band();
         <div class="section bg-white" id="videos">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title text-dark">Vidéos</h2>
+                    <h2 class="section-title text-dark">Nos Vidéos</h2>
                     <div class="col-md-12">
                         <iframe src="https://www.youtube.com/embed/mYKLvYGqaC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="col-md-12">
                         <iframe src="https://www.youtube.com/embed/77EeUimiOro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-md-12">
-                        <iframe src="https://www.youtube.com/embed/CiWEKaa-ehM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                    </div>                    
                 </div>
             </div>
         </div>
@@ -261,7 +256,7 @@ $band = $sql->band();
         <div class="section bg-black" id="concerts">
             <div class="container">
                 <div>
-                    <h2 class="section-title text-light">Concerts</h2>
+                    <h2 class="section-title text-light">Nos Concerts</h2>
                     <figure class="photo"><img src="/assets/img/arton106880.png" alt="fosse en délire">
                         <figcaption>
                             <h3>Cliquez ICI pour Dates & Villes</h3>

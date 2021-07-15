@@ -51,5 +51,15 @@ class Sql extends DbConnect {
             ':tel' => $tel
         ]);
     }
+
+    public function newUser($username,$password) {
+        $req = $this->_pdo->prepare('INSERT INTO user(username,password) VALUE(:username,:password)');
+        $req->execute([
+            ':username' => $username,
+            ':password' => $password
+        ]);
+        
+
+    }
  
 }

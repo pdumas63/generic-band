@@ -29,7 +29,14 @@ $band = $sql->band();
 
     <h2>Bienvenue sur le Panel Admin <?php echo $band['name']; ?> !</h2>    
     <button class="btn">
-        <a href="../index.php" target="_blank">PREVIEW</a></button>
+        <a href="../index.php" target="_blank">PREVIEW</a>
+    </button>
+    <button class="btn">
+        <a href="newUserForm.php" >AJOUT NOUVEL UTILISATEUR</a>
+    </button>
+    <button class="btn">
+        <a href="" >DECONNEXION</a>
+    </button>
     <form action="" method="post" id="panel-admin" class="form-group col">
         <fieldset>
             <p>
