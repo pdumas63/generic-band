@@ -16,7 +16,7 @@ body {
     position: fixed;
     right: 30px;
     bottom: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     cursor: pointer;
     visibility: hidden;
 }
@@ -491,22 +491,22 @@ figure.photo.hover:before {
     padding: 5px 0px 30px;
 }
 
-#col-footer a {
+.footer-basic a {
     display: block;
     margin: auto 10px;
     background: none !important;
     filter: grayscale(100%);
 }
 
-#col-footer a:hover {
+.footer-basic a:hover {
     filter: grayscale(0%);
 }
 
-#col-footer > div:not(:last-child) {
+.footer-basic > div:not(:last-child) {
     margin-right: 30px;
  }
 
-#col-footer img {
+.footer-basic img {
     height: 50px;
     width: 50px;
     margin: 10px;

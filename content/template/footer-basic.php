@@ -9,21 +9,19 @@
     <!-- social icons -->
         <div class="container d-flex justify-content-around">
             <div class="row">                    
-                <div class="col-md-6 d-flex align-items-center" id="col-footer">
-                    <div class="social-icons d-flex">
-                        <a href="https://fr-fr.facebook.com/<?php echo $band['facebook']; ?>" target="_blank"><img src="./assets/img/neon/facebook.png"></a>
-                        <a href="<?php echo $band['twitter']; ?>" target="_blank"><img src="./assets/img/neon/twitter.png"></a>
-                        <a href="<?php echo $band['instagram']; ?>"target="_blank"><img src="./assets/img/neon/insta.png"></a>
-                    </div>
-                    <div class="media-icons d-flex">
-                        <a href="<?php echo $band['youtube']; ?>"target="_blank"><img src="./assets/img/neon/youtube.png"></a>
-                        <a href="<?php echo $band['soundcloud']; ?>"target="_blank"><img src="./assets/img/neon/soundcloud.png"></a>
-                        <a href="<?php echo $band['bandcamp']; ?>"target="_blank"><img src="./assets/img/neon/bandcamp.png"></a>                   
-                    </div>
-                    <div class="contact d-flex">
-                        <a href="tel:+33<?php echo $band['tel']; ?>"><img src="./assets/img/neon/phone.png"></a>
-                        <a href="mailto:<?php echo $band['email']; ?>"><img src="./assets/img/neon/contact.png"></a>
-                    </div>
+                <div class="col-md-6 col-sm-4 social-icons d-flex">
+                    <a href="<?php echo $band['facebook']; ?>" target="_blank"><img src="./assets/img/neon/facebook.png"></a>
+                    <a href="<?php echo $band['twitter']; ?>" target="_blank"><img src="./assets/img/neon/twitter.png"></a>
+                    <a href="<?php echo $band['instagram']; ?>"target="_blank"><img src="./assets/img/neon/insta.png"></a>
+                </div>
+                <div class=col-md-6 col-sm-4 media-icons d-flex">
+                    <a href="<?php echo $band['youtube']; ?>"target="_blank"><img src="./assets/img/neon/youtube.png"></a>
+                    <a href="<?php echo $band['soundcloud']; ?>"target="_blank"><img src="./assets/img/neon/soundcloud.png"></a>
+                    <a href="<?php echo $band['bandcamp']; ?>"target="_blank"><img src="./assets/img/neon/bandcamp.png"></a>                   
+                </div>
+                <div class="col-md-6 col-sm-4 contact d-flex">
+                    <a href="tel:+33<?php echo $band['tel']; ?>"><img src="./assets/img/neon/phone.png"></a>
+                    <a href="mailto:<?php echo $band['email']; ?>"><img src="./assets/img/neon/contact.png"></a>
                 </div>
             </div>
             <div class="row">                    

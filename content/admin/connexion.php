@@ -16,7 +16,7 @@ if( isset($_POST['username']) && isset($_POST['password']) ){
         }else{   
             if(password_verify($_POST['password'], $user['password'])) { // Si les infos correspondent...                
                 $_SESSION['user'] = $_POST['username'];
-                header('Location: ../admin');
+                header('Location: index.php');
             }
             else{ // Sinon
                 echo "Erreur dans l'identifiant ou le mot de passe";

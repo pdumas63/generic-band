@@ -1,4 +1,11 @@
 <?php
+session_start();
+if (!isset($_SESSION['user'])){
+    require_once 'login-form.php';
+}
+else {
+?>
+<?php
 if (isset($_POST["name"], $_POST["logo"], $_POST["qui"], $_POST["facebook"], $_POST["twitter"], $_POST["instagram"], $_POST["youtube"], $_POST["soundcloud"], $_POST["bandcamp"], $_POST["email"], $_POST["tel"])) {
     require_once '../sql/Sql.php';
     $sql = new Sql;
@@ -114,3 +121,4 @@ $band = $sql->band();
 </body>
 
 </html>
+<?php } ?>

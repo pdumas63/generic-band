@@ -57,7 +57,7 @@ $band = $sql->band();
                     <li><a href="#videos">NOS VIDEOS</a></li>
                     <li><a href="#concerts">NOS CONCERTS</a></li>
                     <li><a href="#contact">CONTACTEZ-NOUS</a></li>
-                    <li><a href="form/login-form.php">SE CONNECTER</a></li>
+                    <li><a href="admin/login-form.php">SE CONNECTER</a></li>
                 </ul>
             </nav>
             <!-- /#sidebar-wrapper -->
