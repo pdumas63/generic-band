@@ -35,7 +35,7 @@ $band = $sql->band();
         <a href="newUserForm.php" >AJOUT NOUVEL UTILISATEUR</a>
     </button>
     <button class="btn">
-        <a href="" >DECONNEXION</a>
+        <a href="logout.php" >DECONNEXION</a>
     </button>
     <form action="" method="post" id="panel-admin" class="form-group col">
         <fieldset>

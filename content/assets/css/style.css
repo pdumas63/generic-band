@@ -38,18 +38,15 @@ h2 {
 #recordings .photo,
 #actus .photo,
 #concerts .photo {
-    /* height: 250px; */
-    width: 700px;
     margin: 100px auto 10px;
 }
 
 .hero {
-    background-image: url('../img/john-matychuk-gUK3lA3K7Yo-unsplash.jpg');
+    background: url('../img/john-matychuk-gUK3lA3K7Yo-unsplash.jpg') no-repeat 50%;
     background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
     background-attachment: fixed;
     min-height: 100vh;
+    display: flex;
 }
 
 
@@ -156,6 +153,15 @@ h2 {
     .show-details {
         font-size: medium;
     }
+    .sign-title {
+        font-size: x-large;
+        display: flex;
+        align-items: center; 
+    }
+    .hero {
+        background-size: cover;
+    }
+
 }
 
 @keyframes flicker {
@@ -406,10 +412,23 @@ figure.photo.hover:before {
 }
 
 #recordings iframe {
-    flex-direction: column;
     align-items: center;
-    margin: 5px 200px 5px;
-    /* padding: 1em; */
+    margin-right: 10px;
+    border: 2px ridge #fff !important;
+     
+}
+
+.lecteur {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:991px) {
+    .lecteur {
+        flex-direction: column;
+    }
 }
 
 .section .col-md-12 div {
@@ -420,8 +439,7 @@ figure.photo.hover:before {
 #concerts p {
     color: #fff;
     border: 1px solid #fff;
-    padding: 50px 30px;
-    width: 700px;
+    padding: 50px 30px;    
     margin: 10px auto;
 }
 
@@ -429,9 +447,7 @@ figure.photo.hover:before {
     box-shadow: 10px 5px 5px rgb(165, 165, 165);
     border-style: ridge;
     border: 2px solid red;
-    margin: 20px auto;
-    width: 700px;
-    height: 300px;
+    margin: 20px auto;    
     display: block;
 }
 
@@ -446,9 +462,7 @@ figure.photo.hover:before {
 }
 
 #contact-form fieldset {
-    width: 700px;
-    height: auto;
-    margin: 0px auto 50px;
+    margin: 0 auto 50px;
     text-align: left;
     text-transform: uppercase;
     padding: 50px 50px;
@@ -465,6 +479,7 @@ figure.photo.hover:before {
     width: 100%;
     height: 30px;
     background-size: 300px;
+    margin-bottom: 20px;
 }
 
 .footer-basic {
@@ -473,20 +488,32 @@ figure.photo.hover:before {
     padding: 5px 0px 30px;
 }
 
-.social-icons a {
+#col-footer a {
     display: block;
     margin: auto 10px;
     background: none !important;
     filter: grayscale(100%);
 }
 
-.social-icons a:hover {
+#col-footer a:hover {
     filter: grayscale(0%);
 }
 
-.social-icons img {
+#col-footer > div:not(:last-child) {
+    margin-right: 30px;
+ }
+
+#col-footer img {
     height: 50px;
     width: 50px;
+    margin: 10px;
+}
+
+@media (max-width:790px){
+    #col-footer {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 footer .list-inline-item,
@@ -500,21 +527,6 @@ footer .btn:hover,
 footer a:hover {
     color: #000;
     background-color: #ffffff;
-}
-
-.contact img {
-    margin: 30px 0px;
-    height: 70px;
-    /* width: 80px; */
-}
-
-.contact a {
-    background: none !important;
-    filter: grayscale(100%);
-}
-
-.contact a:hover {
-    filter: grayscale(0%);
 }
 
 footer p {

@@ -151,16 +151,12 @@ $band = $sql->band();
                         </figcaption>
                     </figure>
                 </div>
-                <div class="lecteur">
-                    <div>
-                        <iframe style="border: 0; width: 100%; height: 100%;" src="https://bandcamp.com/EmbeddedPlayer/album=57336617/size=large/bgcol=333333/linkcol=e99708/tracklist=false/artwork=small/track=510499622/transparent=true/" seamless><a href="https://peaceville.bandcamp.com/album/the-roundhouse-tapes">The Roundhouse Tapes by Opeth</a></iframe>
-                    </div>
-                    <div>
-                        <iframe style="border: 0; width: 100%; height: 100%;" src="https://bandcamp.com/EmbeddedPlayer/album=117944312/size=large/bgcol=333333/linkcol=e99708/tracklist=false/artwork=small/track=673988765/transparent=true/" seamless><a href="https://seasonofmistcatalogue.bandcamp.com/album/xiii">XIII by Trepalium</a></iframe>
-                    </div>
-                    <div>
-                        <iframe style="border: 0; width: 100%; height: 100%;" src="https://bandcamp.com/EmbeddedPlayer/album=1949509316/size=large/bgcol=333333/linkcol=e99708/tracklist=false/artwork=small/track=450826400/transparent=true/" seamless><a href="https://detorn.bandcamp.com/album/the-dark-passenger">The Dark Passenger by Detorn</a></iframe>
-                    </div>
+                <div class="lecteur">                    
+                    <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=57336617/size=large/bgcol=333333/linkcol=e99708/tracklist=false/transparent=true/" seamless><a href="https://peaceville.bandcamp.com/album/the-roundhouse-tapes">The Roundhouse Tapes by Opeth</a></iframe>
+                
+                    <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=117944312/size=large/bgcol=333333/linkcol=e99708/tracklist=false/transparent=true/" seamless><a href="https://seasonofmistcatalogue.bandcamp.com/album/xiii">XIII by Trepalium</a></iframe>
+                
+                    <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1949509316/size=large/bgcol=333333/linkcol=e99708/tracklist=false/transparent=true/" seamless><a href="https://detorn.bandcamp.com/album/the-dark-passenger">The Dark Passenger by Detorn</a></iframe>                
                 </div>
             </div>
         </div>
@@ -278,7 +274,7 @@ $band = $sql->band();
         <div class="section bg-white" id="contact">
             <h2 class="section-title">Contactez-nous !</h2>
 
-            <div class="container" style="width: 800px;">
+            <div class="container">
                 <div class="row">
                     <div>
                         <?php require_once 'form/contact-form.php'; ?>
