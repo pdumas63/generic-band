@@ -1,4 +1,8 @@
 <form action="valid-contact-form.php" method="post" id="contact-form">
+<div class="btn-group" role="group">			
+			<button type="button" class="btn btn-light"><a href="tel:+33<?php echo $band['tel']; ?>">0<?php echo $band['tel']; ?></a></button>			
+			<button type="button" class="btn btn-light"><a href="mailto:<?php echo $band['email']; ?>"><?php echo $band['email']; ?></a></button>
+		</div>
 	<fieldset>
 		<div class="form-group">
 			<label for="name">Nom*</label>
@@ -15,15 +19,6 @@
 		<p>Les champs avec (*) sont obligatoires</p>
 		<input type="submit" class="btn btn-light" value="Envoyer">
 		<small id="valid-message"></small>
-		<br><br>
-		<!-- <div>
-			<br>
-			<a href="tel:+33<?php echo $band['tel']; ?>">0<?php echo $band['tel']; ?></a>
-			<a href="mailto:contact@example.com">contact@example.com</a>
-		</div> -->
-		<div class="btn-group" role="group">			
-			<button type="button" class="btn btn-light"><a href="tel:+33<?php echo $band['tel']; ?>">0<?php echo $band['tel']; ?></a></button>			
-			<button type="button" class="btn btn-light"><a href="mailto:<?php echo $band['email']; ?>"><?php echo $band['email']; ?></a></button>
-		</div>
+				
 	</fieldset>
 </form>

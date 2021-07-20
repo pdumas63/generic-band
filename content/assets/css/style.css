@@ -9,7 +9,7 @@ body {
 #arrowup img {
     height: 40px;
     width: 40px;
-    
+    margin-bottom: 30px;
 }
 
 #arrowup {
@@ -458,14 +458,16 @@ figure.photo.hover:before {
 /* contact-form */
 
 #contact-form {
-    box-sizing: border-box;
-    /* background-color: #000; */
+    box-sizing: border-box;    
     color: #fff;
     text-align: center;
 }
-
+#contact-form a {
+    color: #000;
+    text-align: center;    
+}
 #contact-form fieldset {
-    margin: 0 auto 50px;
+    margin: 30px auto 50px;
     text-align: left;
     text-transform: uppercase;
     padding: 50px 50px;
@@ -496,6 +498,7 @@ figure.photo.hover:before {
     margin: auto 10px;
     background: none !important;
     filter: grayscale(100%);
+    text-align: center;
 }
 
 .footer-basic a:hover {
@@ -511,11 +514,16 @@ figure.photo.hover:before {
     width: 50px;
     margin: 10px;
 }
-
-@media (max-width:790px){
-    #col-footer {
-        display: flex;
-        flex-direction: column;
+.footer-logo {
+    display: flex;
+}
+@media (max-width:767px){
+    .footer-logo {
+        display: initial;
+    }
+    .footer-logo div {
+        margin: 0px auto;
+        width: 50%;
     }
 }
 
