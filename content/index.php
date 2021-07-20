@@ -94,7 +94,7 @@ $band = $sql->band();
                             <div class="sign-line"></div>
                         </div>
                     </div>
-                    <div class="grid-container ">
+                    <div class="grid-container">
                         <div class="grid">
                             <div class="grid-cells"></div>
                             <div class="grid-cells"></div>
