@@ -16,7 +16,7 @@ body {
     position: fixed;
     right: 30px;
     bottom: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     cursor: pointer;
     visibility: hidden;
 }
@@ -498,7 +498,7 @@ figure.photo.hover:before {
 }
 
 .footer-basic a {
-    display: block;
+    /* display: flex;  */   
     margin: auto 10px;
     background: none !important;
     filter: grayscale(100%);
@@ -518,16 +518,12 @@ figure.photo.hover:before {
     width: 50px;
     margin: 10px;
 }
-.footer-logo {
-    display: flex;
-}
+
 @media (max-width:767px){
-    .footer-logo {
-        display: initial;
-    }
-    .footer-logo div {
-        margin: 0px auto;
-        width: 50%;
+    .footer-basic img {
+        height: 30px;
+        width: 30px;
+        margin: 10px;
     }
 }
 

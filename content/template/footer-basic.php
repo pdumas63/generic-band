@@ -4,13 +4,13 @@
     <div class="separator"></div>  
 
     <!-- social & media icons -->
-        <div class="container justify-center footer-logo">  
-            <div class="social-icons d-flex">
+        <div class="d-flex" id="footer-icons">  
+            <div class="col-md-6" id="social-icons">
                 <a href="<?php echo $band['facebook']; ?>" target="_blank"><img src="./assets/img/neon/facebook.png"></a>
                 <a href="<?php echo $band['twitter']; ?>" target="_blank"><img src="./assets/img/neon/twitter.png"></a>
                 <a href="<?php echo $band['instagram']; ?>"target="_blank"><img src="./assets/img/neon/insta.png"></a>
             </div>
-            <div class="media-icons d-flex">
+            <div class="col-md-6" id="media-icons">
                 <a href="<?php echo $band['youtube']; ?>"target="_blank"><img src="./assets/img/neon/youtube.png"></a>
                 <a href="<?php echo $band['soundcloud']; ?>"target="_blank"><img src="./assets/img/neon/soundcloud.png"></a>
                 <a href="<?php echo $band['bandcamp']; ?>"target="_blank"><img src="./assets/img/neon/bandcamp.png"></a>                   

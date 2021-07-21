@@ -144,7 +144,7 @@ $band = $sql->band();
             <div class="container">
                 <h2 class="section-title">Notre Son</h2>
                 <div>
-                    <figure class="photo">
+                    <figure class="photo col-md-12">
                         <img src="assets/img/shawn-sim-9lfubBqLbRc-unsplash.jpg" alt="batterie" />
                         <figcaption>
                             <h3>Cliquez ICI pour MUSIQUE</h3>
@@ -167,7 +167,7 @@ $band = $sql->band();
                 <!-- sous-section "Groupe" -->
                 <div id="groupe">
                     <div>
-                        <figure class="photo">
+                        <figure class="photo col-md-12">
                             <img src="assets/img/gros-plan-guitare-acoustique-beau-fond-colore_169016-3530.jpg" alt="guitare" />
                             <figcaption>
                                 <h3>GROUPE</h3>
@@ -182,7 +182,7 @@ $band = $sql->band();
                 <!-- sous-section "Infos" -->
                 <div id="infos">
                     <div>
-                        <figure class="photo">
+                        <figure class="photo col-md-12">
                             <img src="assets/img/jared-berg-HNxKoXrGgco-unsplash.jpg" alt="cymbale" />
                             <figcaption>
                                 <h3>INFOS</h3>
@@ -190,14 +190,14 @@ $band = $sql->band();
                         </figure>
                     </div>
                     <div class="textInfo">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
+                        <p>Les musiciens d'Opeth sont reconnus pour leur grande maîtrise de la technique musicale. Sur une base metal progressif et rock progressif marquée beaucoup par des passages de guitare acoustique, de chants clairs, mais également par certaines influences jazz et blues, Opeth ajoute à sa musique tous les éléments du death metal. L'intégration de parties calmes et acoustiques et des mélodies parfois seventies et progressif font souvent classer le groupe comme death metal progressif. Finalement, on pourrait classer Opeth comme étant du metal progressif à tendance death metal. Les textes se distinguent également des autres groupes death metal, par des paroles beaucoup moins violentes et impliquent souvent un thème poétique. Les thèmes abordés tournent souvent autour de la beauté et de la souffrance.</p>
                     </div>
                 </div>
                 <hr>
                 <!-- sous-section "Albums" -->
                 <div id="albums">
                     <div>
-                        <figure class="photo">
+                        <figure class="photo col-md-12">
                             <img src="assets/img/kelsey-powers-abOAIvrD5_k-unsplash.jpg" alt="mur d'albums" />
                             <figcaption>
                                 <h3>Cliquez ICI pour ALBUMS</h3>
@@ -238,10 +238,10 @@ $band = $sql->band();
             <div class="container">
                 <div class="row">
                     <h2 class="section-title text-dark">Nos Vidéos</h2>
-                    <div class="col-md-12">
+                    <div class="col-md-6">
                         <iframe src="https://www.youtube.com/embed/mYKLvYGqaC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-6">
                         <iframe src="https://www.youtube.com/embed/77EeUimiOro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>                    
                 </div>
@@ -253,7 +253,7 @@ $band = $sql->band();
             <div class="container">
                 <div>
                     <h2 class="section-title text-light">Nos Concerts</h2>
-                    <figure class="photo"><img src="/assets/img/arton106880.png" alt="fosse en délire">
+                    <figure class="photo col-md-12"><img src="/assets/img/arton106880.png" alt="fosse en délire">
                         <figcaption>
                             <h3>Cliquez ICI pour Dates & Villes</h3>
                         </figcaption>
