@@ -27,14 +27,20 @@ $(document).ready(function () {
   });
 
   //function when you click everywhere on the body to close the sidebar
-  $('main').click(function () {
+  $('main').on("click ",function () {
     if (isOpen == true) {
       $('#wrapper').toggleClass('toggled');
       hamburger_cross();
     }
 
   });
+  $(window).scroll(function () {
+    if (isOpen == true) {
+      $('#wrapper').toggleClass('toggled');
+      hamburger_cross();
+    }
 
+  });
   //show arrowup when it's under the header
   $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
