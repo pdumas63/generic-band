@@ -1,4 +1,4 @@
--- DUMPED ON 23/07/2021 at 15:57:27
+-- DUMPED ON 23/07/2021 at 15:25:46
 
 -- MariaDB dump 10.19  Distrib 10.5.11-MariaDB, for Linux (x86_64)
 --
@@ -55,7 +55,7 @@ CREATE TABLE `band` (
 
 LOCK TABLES `band` WRITE;
 /*!40000 ALTER TABLE `band` DISABLE KEYS */;
-INSERT INTO `band` VALUES (1,'Opeth','logo-opeth.jpg','Opeth est un groupe de death metal progressif suÃ©dois, originaire de Stockholm. FondÃ© en 1990, le style d\'Opeth, basÃ© en grande partie sur la prÃ©sence continue du chanteur et guitariste Mikael Ã…kerfeldt, est bien ancrÃ© dans la tradition heavy metal. Le groupe est Ã©galement sous-classÃ© dans le death metal et le rock progressif (ou une combinaison de ces genres) selon l\'album et parfois la chanson Ã  laquelle le critique se rÃ©fÃ¨re. D\'une part, Opeth emprunte aux styles les plus brutaux Ã  travers des chants gutturaux et des sÃ©quences instrumentales trÃ¨s agressives tandis que de l\'autre, il se distingue par des sÃ©quences progressives mÃ©lodiques, trÃ¨s souvent douces et envoÃ»tantes. Cette apparente dichotomie est prÃ©sente dans tous les albums du groupe bien qu\'Ã  des degrÃ©s diffÃ©rents, ce qui rend sa classification dans un style musical d\'autant plus complexe.','https://fr-fr.facebook.com/Opeth/','https://twitter.com/OfficialOpeth','https://www.instagram.com/officialopeth/','https://www.youtube.com/opeth','https://soundcloud.com/roadrunnerrecords/02-opeth-the-devils-orchard','https://bandcamp.com/tag/opeth','opeth@niwee.fr',473123456);
+INSERT INTO `band` VALUES (1,'Les 3 Stagiaires Maléfiques','PascalLogo.png','Opeth est un groupe de death metal progressif suédois, originaire de Stockholm. Fondé en 1990, le style d\'Opeth, basé en grande partie sur la présence continue du chanteur et guitariste Mikael Åkerfeldt, est bien ancré dans la tradition heavy metal. Le groupe est également sous-classé dans le death metal et le rock progressif (ou une combinaison de ces genres) selon l\'album et parfois la chanson à laquelle le critique se réfère. D\'une part, Opeth emprunte aux styles les plus brutaux à travers des chants gutturaux et des séquences instrumentales très agressives tandis que de l\'autre, il se distingue par des séquences progressives mélodiques, très souvent douces et envoûtantes. Cette apparente dichotomie est présente dans tous les albums du groupe bien qu\'à des degrés différents, ce qui rend sa classification dans un style musical d\'autant plus complexe.','https://fr-fr.facebook.com/','https://twitter.com/?lang=fr','https://www.instagram.com/?hl=fr','https://www.youtube.com/','https://soundcloud.com/','https://bandcamp.com/','exemple@niwee.fr',473123456);
 /*!40000 ALTER TABLE `band` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -80,7 +80,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (1,'admin','admin'),(2,'will','$2y$10$M4bTJkxcDbShsXUkCKTjKuqkabxpnOvGgb8dzkDzqXx07pUBoB58K'),(3,'admin2','$2y$10$g3lW/Jwp1CoWqSsZvbdq6eZPUiQkLvLBmYq65D7lGqllxQ5lzpTLa'),(4,'prout','$2y$10$G15ul.NwlBYZfu839hM1aunbqPoFiwyDpXL06u2g7UIOOALa.hwwW');
+INSERT INTO `user` VALUES (1,'admin','$2y$10$M4bTJkxcDbShsXUkCKTjKuqkabxpnOvGgb8dzkDzqXx07pUBoB58K'),(2,'prout','$2y$10$6rU4XmTNPTPsghDWGbgv5OZRvCNIGmKBOvetnQYUgkHn4CFYGAbTC'),(3,'pascal','$2y$10$2KwVY9Igp.xLcKac3SgX8.JssW3DXNK5OjKhP79q7rpdFBsi0kH6G'),(4,'will','$2y$10$FpoTzw5VrYyBVevM0O20rOMnUObRDA962./7atSNNfhGWnBgdFOuG');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -93,4 +93,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-07-23 13:57:28
+-- Dump completed on 2021-07-23 13:25:46
